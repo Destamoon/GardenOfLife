@@ -1,0 +1,242 @@
+p {
+	color:black;
+	margin-left:20px;
+	margin-right:20px;
+	}
+body{
+	
+	text-align:center;
+    margin:0;
+   padding:0;
+   height:100%;
+	
+	}
+
+header{
+    
+    width: 1140px;
+   	border-top: 2px solid;
+    position: fixed;
+
+}
+
+nav{
+	position:fixed;
+}
+
+h1{
+	margin-left:20px;
+	float:left;
+	text-align: left;
+	font-family: Balsamiq;
+	font-size:60px;
+	
+	 }
+
+h2{
+    font-family: balsamiq;
+    text-align: left;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;} 
+
+.nav_text{
+	display:inline;
+	float: left;
+	font-family: Balsamiq
+        
+	
+	}
+a.navLink:link, a.navLink:visited{
+	display:block;
+	border:1px solid;
+	background-color:#99EE6B;
+	padding:18px 14px;
+	width:160px;
+	color:green;
+	text-decoration:none;
+	text-align: center;
+    vertical-align: middle;
+    
+
+	
+	}	
+
+a.navLink:hover,a.navLink:active{
+	background-color:#7A991A;
+	}
+
+a.footLink{
+
+	text-decoration:none;
+	text-align: center;
+    vertical-align: middle;
+    color:black;
+    width:100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a.monthLink{
+    text-decoration:none;
+    padding-left: 7px;
+    margin-top: 2px;
+    color:black;
+        
+}
+
+.bot_nav{
+	
+	display:inline;
+	width:120px;
+	text-align: center;
+    vertical-align: middle;
+	font-size: 20px;
+	font-family: Balsamiq
+}
+
+#content{
+	
+	padding-bottom:25px;
+	height: 450px;
+}
+
+#monthBar{
+	position:fixed;
+    border:2px solid;
+	text-align: left;
+	margin-left: 2px;
+	width: 150px;
+	height: 330px;
+    font-family: balsamiq;
+    font-size: 20px;
+}
+
+#banner{
+    
+    float:right;
+}
+
+#tables{
+
+	margin-right:20px;
+	float:right;
+	height:200px;
+}
+
+.wrapper{
+	border-style: solid;
+	margin:0px auto;
+	min-width:1140px;
+	border-top: 2px;
+    height: 3250px;
+	max-width: 1140px;
+    min-height:100%;
+   position:relative;
+	
+	
+}
+
+table{
+    width:900px;
+    height: 150px;
+    border: 5px solid;
+    border-collapse: collapse
+}
+
+th{
+    font-family: sans-serif;
+    background-color: #CCCCCC;
+    border-right:  3px solid black;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+td{
+    
+    border-right:  3px solid black;
+    text-align: left;
+    padding-left: 10px;
+    font-family: balsamiq;
+}
+
+footer{
+margin-top:25px;
+margin-bottom: 25px;
+background-color: #329000;
+height:30px;
+position:absolute;
+bottom:0;
+width:100%;
+	}
+	
+@font-face{
+	font-family:"Balsamiq";
+	src: url("BalsamiqSansBold.ttf");
+	}
+
+
+
+#tfheader{
+		background-color:#7AEE3C;
+		padding-top: 90px;
+    
+
+	}
+#tfnewsearch{
+	float:right;
+	padding:20px;
+}
+.tftextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid black; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.tfbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px black; 
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00CC00), to(#008500));
+	background: -moz-linear-gradient(top,  #00CC00,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+  border: 0;
+}
+.tfclear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
